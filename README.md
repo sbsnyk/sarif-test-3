@@ -6,7 +6,7 @@
 brew install gh                          # GitHub CLI
 gh extensions install github/gh-codeql   # CodeQL extension for the GitHub CLI
 
-# A valid GitHub personal access token with `Read and Write access to secret scanning alerts and security events` which should be exported to the `GITHUB_TOKEN` environment variable.
+# A valid GitHub personal access token with `Read and Write access to secret scanning alerts and security events`
 export GITHUB_TOKEN="..."
 ```
 
