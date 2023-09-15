@@ -19,3 +19,4 @@ export GITHUB_TOKEN="..."
 * GitHub only uses the `partialFingerprints` property (which is optional) and from that calculates the `fingerprints` property internally. The GitHub CLI usually uses as value the `primaryLocationStartColumnFingerprint` (start column) within that dictionary.
 * [GitHub docs on partial fingerprints](https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#including-data-for-fingerprint-generation)
 * [SARIF Spec on partial fingerprints](https://docs.oasis-open.org/sarif/sarif/v2.1.0/cs01/sarif-v2.1.0-cs01.html#_Toc1601261)
+
