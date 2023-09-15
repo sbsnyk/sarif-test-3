@@ -8,6 +8,6 @@ fi
 
 gh codeql github upload-results \
 	--repository "$(gh repo view --json nameWithOwner | jq -r '.nameWithOwner')" \
-	--ref "refs/heads/$(git branch --show-current)" \
+	--ref "refs/pull//head" \
 	--commit "$(git rev-parse HEAD)" \
 	--sarif ./code-results.sarif
